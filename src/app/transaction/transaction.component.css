@@ -1,0 +1,8 @@
+table,tr,th,td{
+    border: 1px solid rgba(192, 14, 14, 0.461);
+    border-collapse:collapse ;
+    color: blue;
+}
+h2{
+    color: white;
+}

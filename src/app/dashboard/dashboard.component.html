@@ -1,0 +1,46 @@
+<h1>welcome user {{user}}!!</h1>
+<a routerLink="/transaction">show your transaaction history</a>
+
+<div class="main">
+  
+    <section>
+        <form (ngSubmit)="deposit()">
+        <h2>DEPOSIT PAGE</h2>
+        <div class="stringinterpolation">
+            <div class=""> <input name="acnom2" type="text" placeholder="acnt" [(ngModel)]="acnum"  id="acnum"></div>
+           <div class=""> <input name="pas2" type="password" placeholder="password" [(ngModel)]="pswrd" id="pswrd"></div>
+           <div class=""> <input name="depo2" type="text" placeholder="deposit" [(ngModel)]="amnt"  id="amnt"></div>
+
+
+            <div class="btn"><button type="submit">deposit</button></div>
+            
+       
+    </div>
+</form>
+
+</section>
+
+</div>
+            
+    
+<div class="main">
+    <form (ngSubmit)="withdraw()">
+     <section>
+         <h2>WITHDRAW PAGE</h2>
+         <div class="stringinterpolation">
+             <div class=""> <input name="acnom" type="text" placeholder="acnt"  [(ngModel)]="acnum1" id="acnum1"></div>
+            <div class="pss"> <input name="pas" type="password" placeholder="password" [(ngModel)]="pswrd1"  id="pswrd1"></div>
+            <div class="pss"> <input name="with" type="text" placeholder="withdraw" [(ngModel)]="amnt1" id="amnt1"></div>
+ 
+ 
+             <div class="btn"><button type="submit">withdraw</button></div>
+             
+        
+     </div>
+ 
+ </section></form>
+ 
+ </div>
+             
+     
+     
